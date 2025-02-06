@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "universities": "Universities",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Gateway to Global Education",
+    "subtitle": "Discover world-class educational opportunities abroad",
+    "cta": "Get Started"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are dedicated to helping students achieve their dreams of studying abroad. With years of experience, we provide comprehensive guidance and support throughout your educational journey."
+  },
+  "services": {
+    "title": "Our Services",
+    "counseling": "Educational Counseling",
+    "visa": "Visa Assistance",
+    "admission": "University Admissions",
+    "test": "Test Preparation"
+  },
+  "universities": {
+    "title": "Partner Universities",
+    "description": "We collaborate with top-ranked universities worldwide"
+  },
+  "testimonials": {
+    "title": "Student Testimonials",
+    "description": "What our students say about us"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
