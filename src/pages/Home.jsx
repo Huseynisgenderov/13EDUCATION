@@ -8,22 +8,22 @@ const Home = () => {
 
   const universities = [
     {
-      name: "University of Oxford",
-      country: "United Kingdom",
-      image: "https://images.unsplash.com/photo-1580977251946-3029f4d8d9f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description: "A world-renowned institution with a legacy of academic excellence spanning over 900 years."
+      name: "Trento University",
+      country: "Italy",
+      image: "https://www.iperionhs.eu/wp-content/uploads/2020/06/Trento1.jpg",
+      description: "Free education, Without exam and IELTS"
     },
     {
-      name: "Harvard University",
-      country: "United States",
-      image: "https://images.unsplash.com/photo-1583889659384-84213c4c4e7c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description: "One of the world's most prestigious universities, known for groundbreaking research and innovation."
+      name: "Messina University",
+      country: "Italy",
+      image: "https://applyitaly.gammaskynet.az/storage/about/f2qjXUk0skFXYAmd61EtmBc2rrV6t3N6dNfQzoOW.jpg",
+      description: "Free education, Without exam and IELTS"
     },
     {
-      name: "University of Tokyo",
-      country: "Japan",
-      image: "https://images.unsplash.com/photo-1565311741360-47a8b6c6598c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description: "Japan's leading university, combining traditional values with cutting-edge research."
+      name: "Roma La Sapienza",
+      country: "Italy",
+      image: "https://d3w13n53foase7.cloudfront.net/medium_fef65ac7_e9b2_4573_983c_c8422961073e_archivio_di_stato_di_roma_panoramio_bc5e3c7fa4.jpg",
+      description: "Free education, Without exam and IELTS"
     },
     {
       name: "ETH Zurich",
@@ -51,7 +51,19 @@ const Home = () => {
       text: "Excellent support throughout the entire application process.",
       university: "ETH Zurich",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    }
+    },
+    {
+      name: "Muhammad Ahmed",
+      text: "The guidance I received was invaluable for my academic journey.",
+      university: "Harvard University",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },,
+    {
+      name: "Muhammad Ahmed",
+      text: "The guidance I received was invaluable for my academic journey.",
+      university: "Harvard University",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
   ];
 
   return (
