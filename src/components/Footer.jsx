@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>EduAbroad</h3>
+            <h3>13education</h3>
             <p>Your trusted partner in international education</p>
           </div>
           
@@ -26,18 +26,18 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact</h4>
             <ul>
-              <li>Email: contact@eduabroad.com</li>
+              <li>Email: 13education@gmail.com</li>
               <li>Phone: +1 234 567 890</li>
-              <li>Address: 123 Education Street</li>
+              <li>Address: Moscow City Center</li>
             </ul>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} EduAbroad. {t('footer.rights')}</p>
+          <p>&copy; {currentYear} 13EDUCATION {t('footer.rights')}</p>
           <div className="footer-links">
-            <Link to="/privacy">{t('footer.privacy')}</Link>
-            <Link to="/terms">{t('footer.terms')}</Link>
+            <Link to="/">{t('footer.privacy')}</Link>
+            <Link to="/">{t('footer.terms')}</Link>
           </div>
         </div>
       </div>

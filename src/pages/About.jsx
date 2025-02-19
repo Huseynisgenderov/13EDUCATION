@@ -1,4 +1,6 @@
 import { useTranslation } from 'react-i18next';
+import "./universities.scss";
+
 
 const About = () => {
   const { t } = useTranslation();
@@ -17,7 +19,7 @@ const About = () => {
           <div className="about-grid">
             <div className="about-text">
               <h2>Our Journey in Global Education</h2>
-              <p>For over a decade, EduAbroad has been at the forefront of international education, helping thousands of students achieve their dreams of studying abroad. Our journey began with a simple mission: to bridge the gap between ambitious students and world-class educational institutions.</p>
+              <p>For over a decade, 13education has been at the forefront of international education, helping thousands of students achieve their dreams of studying abroad. Our journey began with a simple mission: to bridge the gap between ambitious students and world-class educational institutions.</p>
               <p>We understand that choosing to study abroad is one of the most significant decisions in a student's life. That's why our team of experienced education counselors provides personalized guidance throughout the entire process, from university selection to visa application.</p>
               <p>Our partnerships with prestigious universities across the globe ensure that our students have access to the best educational opportunities. We take pride in our success rate, with over 95% of our students successfully securing admissions to their preferred universities.</p>
               <p>What sets us apart is our commitment to providing comprehensive support beyond just admissions. We offer extensive pre-departure orientation, cultural adaptation workshops, and continuous support throughout the student's academic journey.</p>

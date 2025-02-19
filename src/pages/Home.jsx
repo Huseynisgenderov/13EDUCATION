@@ -36,7 +36,7 @@ const Home = () => {
   const testimonials = [
     {
       name: "Sarah Johnson",
-      text: "Thanks to EduAbroad, I'm now studying at my dream university!",
+      text: "Thanks to 13education, I'm now studying at my dream university!",
       university: "Oxford University",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },

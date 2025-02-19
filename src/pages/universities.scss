@@ -1,0 +1,132 @@
+// Variables for consistent styling
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$text-color: #34495e;
+$light-bg: #f9f9f9;
+$spacing-unit: 1rem;
+$max-width: 1200px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+
+// Mixins for reusable styles
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+}
+
+@mixin responsive-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-unit * 2;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Global styles for the about page
+.about-page {
+  font-family: 'Arial', sans-serif;
+  color: $text-color;
+  line-height: 1.6;
+
+  .container {
+    @include container;
+  }
+
+  // Hero section
+  .about-hero {
+    background-color: $primary-color;
+    color: white;
+    padding: $spacing-unit * 4 0;
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: $spacing-unit;
+    }
+
+    p {
+      font-size: 1.25rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+
+  // Content section
+  .about-content {
+    padding: $spacing-unit * 4 0;
+    background-color: $light-bg;
+
+    .about-grid {
+      @include responsive-grid;
+
+      .about-text {
+        h2 {
+          font-size: 2rem;
+          margin-bottom: $spacing-unit;
+          color: $primary-color;
+        }
+
+        p {
+          font-size: 1rem;
+          margin-bottom: $spacing-unit;
+          line-height: 1.8;
+        }
+      }
+
+      .about-image {
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+
+  // Responsive adjustments
+  @media (max-width: $breakpoint-md) {
+    .about-hero {
+      padding: $spacing-unit * 2 0;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .about-content {
+      padding: $spacing-unit * 2 0;
+
+      .about-grid {
+        .about-text {
+          h2 {
+            font-size: 1.75rem;
+          }
+
+          p {
+            font-size: 0.95rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-lg) {
+    .about-grid {
+      gap: $spacing-unit;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import "../styles/main.scss";
 
 const Universities = () => {
   const { t } = useTranslation();
